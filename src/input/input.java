@@ -14,6 +14,7 @@ public class input {
                 System.out.print("Enter the size of Array:");
                 int size = sc.nextInt();
                 sc.nextLine();
+                ArrayTree object = new ArrayTree(size);
             }
             catch (InputMismatchException e) {
                 //block to handle exception
