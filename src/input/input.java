@@ -19,7 +19,13 @@ public class input {
                 String key = sc.nextLine();
                 object.root(key);
                 while (true) {
-
+                    System.out.println(" * press " + 1 + " for add parent node");
+                    System.out.println(" * press " + 2 + " for add left child node");
+                    System.out.println(" * press " + 3 + " for add right child node");
+                    System.out.println(" * press " + 4 + " to view array");
+                    System.out.println(" * press " + 5 + " to exit:");
+                    int input_choice = sc.nextInt(); //variable to store the choice
+                    sc.nextLine();
                 }
             }
             catch (InputMismatchException e) {
