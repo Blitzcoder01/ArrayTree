@@ -26,6 +26,14 @@ public class input {
                     System.out.println(" * press " + 5 + " to exit:");
                     int input_choice = sc.nextInt(); //variable to store the choice
                     sc.nextLine();
+                    if (input_choice == 1) {
+                        System.out.println("Enter the index where you want to insert:");
+                        int index = sc.nextInt();
+                        sc.nextLine();
+                        System.out.println("Enter the value which you want to insert:");
+                        String value = sc.nextLine();
+                        object.ParentNode(value, index);
+                    }
                 }
             }
             catch (InputMismatchException e) {
