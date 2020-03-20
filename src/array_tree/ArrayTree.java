@@ -44,6 +44,16 @@ public class ArrayTree {
             System.out.println("right child node inserted");
         }
     }
+    public void ViewArray() {
+        System.out.println("THE TREE IS:");
+        for (int i = 0; i < array.length; i++) {
+            if (array[i] == null) {
+                System.out.print(" _ ");
+            } else {
+                System.out.print(" "+array[i] +" ");
+            }
+        }
+        System.out.println("");
 
 
 }
