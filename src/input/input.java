@@ -10,6 +10,13 @@ public class input {
         try {
             System.out.println("*****Tree Using Array*****");
             Scanner sc = new Scanner(System.in);
+            try {
+
+            }
+            catch (InputMismatchException e) {
+                //block to handle exception
+                System.out.println(" wrong value try again..");
+            }
         }
         catch(InputMismatchException e){
             //block to handle exception
