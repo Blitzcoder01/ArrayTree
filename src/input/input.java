@@ -11,7 +11,9 @@ public class input {
             System.out.println("*****Tree Using Array*****");
             Scanner sc = new Scanner(System.in);
             try {
-
+                System.out.print("Enter the size of Array:");
+                int size = sc.nextInt();
+                sc.nextLine();
             }
             catch (InputMismatchException e) {
                 //block to handle exception
