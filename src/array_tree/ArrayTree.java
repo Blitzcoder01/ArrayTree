@@ -32,6 +32,18 @@ public class ArrayTree {
             System.out.println("left child node inserted");
         }
     }
+    public void RightChildNode(String right_value, int index) {
+        if (array[index] == null) {
+            System.out.println("can't be inserted,no parent node found");
+        }
+        else if(index==0){
+            System.out.println("can't inserted, reserved by root value ");
+        }
+        else {
+            array[(2 * index) + 2] = right_value;
+            System.out.println("right child node inserted");
+        }
+    }
 
 
 }
