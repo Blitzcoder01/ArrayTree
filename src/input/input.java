@@ -50,6 +50,9 @@ public class input {
                         String value = sc.nextLine();
                         object.RightChildNode(value, index);
                     }
+                    else if (input_choice == 4) {
+                        object.ViewArray();
+                    }
                 }
             }
             catch (InputMismatchException e) {
