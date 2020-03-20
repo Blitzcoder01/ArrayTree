@@ -50,10 +50,10 @@ public class ArrayTree {
             if (array[i] == null) {
                 System.out.print(" _ ");
             } else {
-                System.out.print(" "+array[i] +" ");
+                System.out.print(" " + array[i] + " ");
             }
         }
         System.out.println("");
-
+    }
 
 }
