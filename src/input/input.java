@@ -34,6 +34,14 @@ public class input {
                         String value = sc.nextLine();
                         object.ParentNode(value, index);
                     }
+                    else if (input_choice == 2) {
+                        System.out.println("Enter the index where you want to insert:");
+                        int index = sc.nextInt();
+                        sc.nextLine();
+                        System.out.println("Enter the value which you want to insert:");
+                        String value = sc.nextLine();
+                        object.LeftChildNode(value, index);
+                    }
                 }
             }
             catch (InputMismatchException e) {
