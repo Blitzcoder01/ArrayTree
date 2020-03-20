@@ -8,4 +8,16 @@ public class ArrayTree {
     public void root(String key) {
         array[0] = key;
     }
+    public void ParentNode(String value, int index) {
+        if (index > array.length) {
+            System.out.println("invalid index number");
+        }
+        else if(index==0){
+            System.out.println("can't inserted, reserved by root value ");
+        }
+        else {
+            array[(index - 1) / 2] = value;
+            System.out.println("parent node inserted");
+        }
+    }
 }
