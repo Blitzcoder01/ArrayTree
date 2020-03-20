@@ -53,6 +53,9 @@ public class input {
                     else if (input_choice == 4) {
                         object.ViewArray();
                     }
+                    else if (input_choice == 5) {
+                        break;
+                    }
                 }
             }
             catch (InputMismatchException e) {
