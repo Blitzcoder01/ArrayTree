@@ -15,6 +15,9 @@ public class input {
                 int size = sc.nextInt();
                 sc.nextLine();
                 ArrayTree object = new ArrayTree(size);
+                System.out.println("Enter the root value of tree:");
+                String key = sc.nextLine();
+                object.root(key);
             }
             catch (InputMismatchException e) {
                 //block to handle exception
