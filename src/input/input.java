@@ -18,6 +18,9 @@ public class input {
                 System.out.println("Enter the root value of tree:");
                 String key = sc.nextLine();
                 object.root(key);
+                while (true) {
+
+                }
             }
             catch (InputMismatchException e) {
                 //block to handle exception
