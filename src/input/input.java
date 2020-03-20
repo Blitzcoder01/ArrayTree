@@ -62,6 +62,7 @@ public class input {
                 //block to handle exception
                 System.out.println(" wrong value try again..");
             }
+            sc.close();
         }
         catch(InputMismatchException e){
             //block to handle exception
